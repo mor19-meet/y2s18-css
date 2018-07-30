@@ -1,16 +1,53 @@
 body {
-    background-color: white;
-    color: green;
+    background-color:black;
+    color: white;
 }
 
 selector {
 	property: value;
 }
-h1{
-	color:purple;
-	text-align: center;
-}
 
 a{
 	color: purple;
+}
+
+.containor{
+	position: relative;
+	height: 1000px;
+
+}
+
+.sidebar{
+	position: fixed;
+	top:20%;
+	bottom:52%;
+	right:0%;
+	left:77%;
+	background-color:white;
+	color:blue;
+}
+
+.bgr{
+	background-color:blue;
+	position: fixed;
+	top:15%;
+	bottom:57%;
+	right:5%;
+	left:82%;
+
+}
+.body{
+	position: absolute;
+	top:15%;
+	right:30%;
+	left:5%;
+	text-align: center;
+}
+
+.title{
+	height: 60px;
+	width: 100%;
+	color:purple;
+	text-align: center;
+
 }
