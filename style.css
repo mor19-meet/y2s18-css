@@ -1,1 +1,16 @@
+body {
+    background-color: white;
+    color: green;
+}
 
+selector {
+	property: value;
+}
+h1{
+	color:purple;
+	text-align: center;
+}
+
+a{
+	color: purple;
+}
